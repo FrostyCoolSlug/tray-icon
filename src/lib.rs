@@ -65,7 +65,7 @@
 use std::path::{Path, PathBuf};
 
 use counter::Counter;
-use crossbeam_channel::{unbounded, Receiver, Sender};
+use async_channel::{unbounded, Receiver, Sender};
 use icon::Icon;
 use once_cell::sync::Lazy;
 
